@@ -1,7 +1,4 @@
 h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: rgb(0, 0, 0);
     font-size: 2.0em;
     font-style: italic;  
@@ -9,38 +6,23 @@ h1{
 }
 .Titulo{
     background-color: white;
-    border:3px solid black;
 }
 .volver input{
-    margin: auto; display: block;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
-    border-color: white;
 
 }
 h3{
     background-color: rgb(172, 172, 172);
-    border: 3px solid black;
 }
 section{
-    border: 3px solid black;
     background-color: white;
 }
 body{
-    background-color: rgb(119, 59, 11);
+    background-color: bisque;
     font-style: oblique;
-    line-height: 2.5em;
-    width: 50em;
-    border-width: 3px solid black;
-    border-right-color: rgb(0, 0, 0);
-    border-right-style: solid;
-    border-right-width: 5px;
-    padding-right: 3px;
-    border-left-color: rgb(0, 0, 0);
-    border-left-style: solid;
-    border-left-width: 5px;
-    padding-left: 3px;
-    border-spacing: 300 px;
+    line-height: 1.5em;
+
 }
 #H2_NOMBRE{
     text-align: center;
@@ -48,48 +30,28 @@ body{
 .Nombre{
     color: #000000;
     background-color: rgb(255, 255, 255);
-    border:3px solid black;
-}
-hr{
-    border: 3px solid black;
-}
-.imagen{
-
-    border:5px solid black;
 }
 .Biografia{
     background-color: white;
-    border: 3px solid black;
 }
 .Experiencia{
-    border: 2px solid black;
     background-color: whitesmoke;
 }
 #Bio{
     text-align: center;
-    background-color:rgb(119, 59, 11) ;
-    border: 0px;
+    background-color: bisque;
 }
 #seccion1{
     text-align: center;
-    background-color: rgb(119, 59, 11);
-    border: 0px;
+    background-color: bisque;
 }
 .Contacto{
     background-color: rgb(255, 255, 255);
-    border: 3px solid black;
 }
 .Footer{
-    text-align: center;
     background-color: white;
-    border:3px solid black;
-    border-width: 30px;
-}
-.Tablafooter{
-    margin: 0 auto;
 }
 strong{
     background-color: #b9b9b9;
-    border:3px solid black;
     
 }
