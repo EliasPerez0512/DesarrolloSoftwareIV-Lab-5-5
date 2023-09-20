@@ -8,23 +8,20 @@
     href="style.css">
 </head>
 <header>
-    <center><h1>Curriculum vitae</h1></center>
-    <form action="Menu.html">
-        <input type="submit"value="Volver al Menu">
+    <h1><span class="Titulo">Curriculum vitae</span></h1>
+    <form action="/CSS_INTERNO/Menu.html" class="volver" >
+        <input type="submit" value="Volver al Menú">
     </form>
-    <hr>
 </header>
-<body bgcolor="#196802">
-    <section>
-        <!--Seccion de imagen-->
-        <h2>Brian Cubilla</h2>
-        <img src="Imagenes/roberto pata.jpeg" width="250" height="250" alt="">
-
+<body>
+    <section class="Nombre_Imagen" id="seccion1">
+        <!-- Seccion de imagen -->
+        <h2 id="H2_NOMBRE"><span class="Nombre">Brian Cubilla</span></h2>
+            <img src="/Imagenes/travieso scot.jpeg" class="imagen" width="250" height="250">
     </section>
-    <section>
-        <!--Biografia-->
-        <p>Hola soy Brian Cubilla tengo 19 años soy estudiante de la Universidad </p>
-        <p>Tecnologica de Panamá Me gusta el pan y soy ese</p>
+    <section id="Bio">
+        <!-- Biografia -->
+        <p><span class="Biografia">Hola soy Brian Cubilla tengo 19 años soy estudiante de la Universidad Tecnologica de Panamá Me gusta el pan y soy ese</span></p>
     </section>
     <hr>
     <section>
@@ -39,39 +36,48 @@
         <!--Seccion de Educacion-->
         <h3>Educación</h3>
             <ul>
-                <li>Castillo Bilingue de Vucales:</li>
+                <li><strong>Castillo Bilingue de Vucales:</strong></li>
                 <li>Primaria 6to grado</li><br>
-                <li>Centro Educativo Fuente Agua Viva</li>
+                <li><strong>Centro Educativo Fuente Agua Viva</strong></li>
                 <li>Educacion Premedia</li>
                 <li>Educacion Media Bachiller en Ciencias</li><br>
-                <li>Universidad Tecnologica de Panamá</li>
+                <li><strong>Universidad Tecnologica de Panamá</strong></li>
                 <li>2do año 1er Semestre cursando 2do semestre en Software Development</li>
             </ul>
     </section>
     <hr>
     <section>
-        <!--Seccion de Conocimientos-->
+        <!-- Sección de Conocimientos -->
         <h3>Conocimientos</h3>
-            <ol>
-                <li>Lenguaje java</li>
-                <li>Lenguaje c++</li>
-                <li>MySQL</li>
+        <ul>
+            <li><strong>Lenguajes de Programación:</strong></li>
+            <ul>
+                <li>Java</li>
+                <li>C++</li>
                 <li>HTML</li>
-                <li>Ingles Avanzado</li>
-            </ol>
+            </ul>
+            <li><Strong>Base de Datos:</Strong></li>
+            <ul>
+                <li>MySQL</li>
+            </ul>
+            <li><strong>Idiomas:</strong></li>
+            <ul>
+                <li>Inglés (Avanzado)</li>
+            </ul>
+        </ul>
     </section>
     <hr>
     <Section>
         <!--Datos Generales-->
         <h3>Datos Generales</h3>
         <ul>
-            <li>Edad:</li>
+            <li><strong>Edad:</strong></li>
             <li>19</li>
-            <li>Estado Civil:</li>
+            <li><strong>Estado Civil:</strong></li>
             <li>Soltero</li>
-            <li>Cedula:</li>
+            <li><strong>Cedula:</strong></li>
             <li>8-1010-408</li>
-            <li>Fecha de Nacimiento:</li>
+            <li><strong>Fecha de Nacimiento:</strong></li>
             <li>06/20/2004</li>
         </ul>
     </Section>
@@ -87,13 +93,17 @@
     </section>
 </body>
 <hr>
-<footer>
-    <h2>Contacto</h2>
-    <ul>
-        <li>Numero de telefono:</li>
-        <li>6652-5292</li>
-        <li>Correo electronico:</li>
-        <li>brian.cubilla@utp.ac.pa</li>
-    </ul>
+<footer class="Footer">
+    <h2><span class="Contacto">Contacto</span></h2>
+    <table class="Tablafooter">
+        <tr>
+            <td><strong>Número de teléfono:</strong></td>
+            <td>6652-5292</td>
+        </tr>
+        <tr>
+            <td><strong>Correo electrónico:</strong></td>
+            <td>brian.cubilla@utp.ac.pa</td>
+        </tr>
+    </table>
 </footer>
 </html>

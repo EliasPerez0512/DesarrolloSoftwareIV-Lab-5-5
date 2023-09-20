@@ -12,45 +12,112 @@
             align-items: center;
             color: rgb(0, 0, 0);
             font-size: 2.0em;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
-            border: 3px solid black; 
+            font-style: italic;  
+            font-family:cursive;
         }
-        h2{
-            color: black;
+        .Titulo{
+            background-color: white;
+            border:3px solid black;
         }
-        input{
+        .volver input{
+            margin: auto; display: block;
             color: rgb(255, 255, 255);
             background-color: rgb(0, 0, 0);
             border-color: white;
+
+        }
+        h3{
+            background-color: rgb(172, 172, 172);
+            border: 3px solid black;
+        }
+        section{
+            border: 3px solid black;
+            background-color: white;
         }
         body{
             background-color: blueviolet;
+            font-style: oblique;
+            line-height: 2.5em;
+            width: 50em;
+            border-width: 3px solid black;
+            border-right-color: rgb(0, 0, 0);
+            border-right-style: solid;
+            border-right-width: 5px;
+            padding-right: 3px;
+            border-left-color: rgb(0, 0, 0);
+            border-left-style: solid;
+            border-left-width: 5px;
+            padding-left: 3px;
         }
-        img{
-            align-items: center;
+        #H2_NOMBRE{
+            text-align: center;
         }
-        
-        
+        .Nombre{
+            color: #000000;
+            background-color: rgb(255, 255, 255);
+            border:3px solid black;
+        }
+        hr{
+            border: 3px solid black;
+        }
+        .imagen{
+
+            border:5px solid black;
+        }
+        .Biografia{
+            background-color: white;
+            border: 3px solid black;
+        }
+        .Experiencia{
+            border: 2px solid black;
+            background-color: whitesmoke;
+        }
+        #Bio{
+            text-align: center;
+            background-color: blueviolet;
+            border: 0px;
+        }
+        #seccion1{
+            text-align: center;
+            background-color: blueviolet;
+            border: 0px;
+        }
+        .Contacto{
+            background-color: rgb(255, 255, 255);
+            border: 3px solid black;
+        }
+        .Footer{
+            text-align: center;
+            background-color: white;
+            border:3px solid black;
+            border-width: 30px;
+        }
+        .Tablafooter{
+            margin: 0 auto;
+        }
+        strong{
+            background-color: #b9b9b9;
+            border:3px solid black;
+            
+        }
     </style>
 </head>
 <header>
-    <h1>Curriculum vitae</h1>
-    <form action="Menu.html">
+    <h1><span class="Titulo">Curriculum vitae</span></h1>
+    <form action="Menu.html" class="volver" >
         <input type="submit" value="Volver al Menú">
     </form>
 </header>
 <body>
     <section class="Nombre_Imagen" id="seccion1">
         <!-- Seccion de imagen -->
-        <h2>Justine Marie Coronel Guevara</h2>
-        <div>
-            <img src="Imagenes/ImagenJustine.jpg"Foto de Justine" width="150" height="150">
-        </div>
+        <h2 id="H2_NOMBRE"><span class="Nombre">Justine Marie Coronel Guevara</span></h2>
+            <img src="/Imagenes/ImagenJustine.jpg" class="imagen" width="250" height="250">
     </section>
 
-    <section>
+    <section id="Bio">
         <!-- Biografia -->
-        <p>Como desarrolladora de software, mi misión es crear y mejorar programas informáticos utilizando una amplia gama de lenguajes.</p>
+        <p><span class="Biografia">Como desarrolladora de software, mi misión es crear y mejorar programas informáticos utilizando una amplia gama de lenguajes.</span></p>
     </section>
     <hr>
     <hr>
@@ -81,7 +148,7 @@
             </li>
             <li>
                 <strong>Universidad Tecnológica de Panamá</strong><br>
-                2do año, 1er Semestre cursando 2do Semestre en Desarrollo de Software
+                2do año,  cursando 2do Semestre en Desarrollo de Software
             </li>
         </ul>
     </section>
@@ -91,21 +158,21 @@
         <!-- Sección de Conocimientos -->
         <h3>Conocimientos</h3>
         <ul>
-            <li>Lenguajes de Programación:</li>
+            <li><strong>Lenguajes de Programación:</strong></li>
             <ul>
                 <li>Java</li>
                 <li>C++</li>
             </ul>
-            <li>Base de Datos:</li>
+            <li><Strong>Base de Datos:</Strong></li>
             <ul>
                 <li>MySQL</li>
                 <li>NoSQL</li>
             </ul>
-            <li>Idiomas:</li>
+            <li><strong>Idiomas:</strong></li>
             <ul>
                 <li>Inglés (Avanzado)</li>
             </ul>
-            <li>Control de versiones:</li>
+            <li><strong>Control de versiones:</strong></li>
             <ul>
                 <li>GitLab</li>
                 <li>GitHub</li>
@@ -138,9 +205,9 @@
     <hr>
     <hr>
     </body>
-    <footer>
-        <h2>Contacto</h2>
-        <table>
+    <footer class="Footer">
+        <h2><span class="Contacto">Contacto</span></h2>
+        <table class="Tablafooter">
             <tr>
                 <td><strong>Número de teléfono:</strong></td>
                 <td>6101-9034</td>
