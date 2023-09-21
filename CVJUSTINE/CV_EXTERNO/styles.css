@@ -1,0 +1,38 @@
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezados */
+header {
+    background-color: #3498db;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #fff;
+}
+
+/* Resto del CV */
+section {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* Listas */
+ul, ol {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #3498db;
+}
+
+footer h2 {
+    font-size: 24px;
+    color: #fff;
+}
