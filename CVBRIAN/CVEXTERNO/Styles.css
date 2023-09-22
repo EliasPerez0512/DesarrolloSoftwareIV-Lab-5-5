@@ -1,0 +1,18 @@
+html {height: 100%;}
+
+body {background-color: antiquewhite; padding: 1em; 
+    font-family: "Public Sans", sans-serif; font-size: 1.2rem;}
+
+h1 {line-height: 18cm; color: brown;}
+
+h3{font-style: italic; color: midnightblue;}
+
+p{color: orangered; text-transform: initial;}
+
+ol{color: orangered; text-transform: initial;}
+
+ul{color: orangered; text-transform: initial;}
+
+.footer{
+    background-color: cadetblue;
+}
